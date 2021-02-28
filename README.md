@@ -1,1 +1,1 @@
-# Javokhirbek2000.github.io
+# ShohrukhmirzoGulomov.github.io
