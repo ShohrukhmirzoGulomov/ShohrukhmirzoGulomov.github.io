@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    font-family:Arial,"Times New Roman",serif;
+}
+
+/* Navbar Styles */
+header .navbar{
+    margin:0;
+    padding:0;
+}
+.navbar-list{
+    background-color:#FFF;
+    margin-top:0;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:8px;
+    margin-bottom:0;
+}
+.navbar-list a{
+    font-size:1.2em;
+    text-decoration: none;
+    color:#DE354C;
+}
+.navbar-list a:hover{
+    font-weight:bold;
+    border-bottom: 2px solid #DE354C;;
+}
+
+/* Main section */
+.hello{
+    margin-top:0;
+    padding:120px 300px 100px 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #DE354C;
+    margin-bottom:0;
+}
+.hello h1{
+    font-size:3.1em;
+}
+.hello h1 span{
+    color:white;
+}
+section{ 
+    margin:0;
+}
+.hello img{
+    padding-left:0;
+    width:350px;
+    height:350px;
+}
+
+/* About section */
+.info{
+    margin-top:0;
+    width:100%;
+    height:100px;
+    text-align:center;
+    padding-top:30px;
+    font-size:1.2em;
+}
+
+/* Subjects List Section */
+.subjects{
+    background-color:#DE354C;
+    font-size:1.2em;
+    color:white;
+}
+.subjects table{
+    margin:auto;
+}
+.subjects h2{
+    text-align:center;
+}
+table td{
+    padding:3px 80px;
+}
+
+/* Hobbies */
+.hobbies{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+#hobbies h2{
+    text-align:center;
+    margin-top:20px;
+}
+.card{
+    margin:20px;
+    padding:20px;
+    font-size:1.1em;
+    text-align:center;
+}
+.card p{
+    text-align:center;
+    margin-bottom:30px;
+}
+.hobbies img{
+    width:100%;
+    height:200px;
+}
+.card button{
+    font-size:1.3em;
+    padding:5px;
+    border:0;
+    background-color: white;
+    color:blue;
+}
+.card button:hover{
+    background-color: blue;
+    color:white;
+}
+
+/* Footer section */
+.footer{
+    background-color:#DE354C;
+    text-align:center;
+    font-size:1.2em;
+    color:white;
+}
+.footer i{
+    padding:15px;
+}
+
